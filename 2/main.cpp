@@ -22,7 +22,7 @@ int main() {
     SetConsoleOutputCP(65001);
     SetConsoleCP(65001);
 
-    Refrigerator myFridge(22.0); // Кімнатна температура 22 °C
+    Refrigerator myFridge(22.0); 
     int choice = -1;
 
     while (choice != 0) {
