@@ -33,7 +33,7 @@ void Refrigerator::TurnOff() {
 }
 
 void Refrigerator::SetTargetTemp(double newTemp) {
-    // Обмеження діапазону цільової температури (-25 ... 0 °C)
+  
     if (newTemp < -25.0) newTemp = -25.0;
     if (newTemp > 0.0) newTemp = 0.0;
     TargetTemp = newTemp;
